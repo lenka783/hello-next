@@ -1,13 +1,15 @@
 import React from 'react';
 
+import StyledComponentsRegistry from '../components/StyledComponentsRegistry';
 import './styles.css';
 
 function RootLayout({ children }) {
   return (
     <html lang='en'>
       <body>
-        {children}
-        <footer>Page renewed on: {new Date().toLocaleString()}</footer>
+        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+
+        <footer>Copyright Whatever Inc.</footer>
       </body>
     </html>
   );
