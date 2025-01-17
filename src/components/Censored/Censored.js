@@ -1,7 +1,7 @@
 'use client';
 import React from 'react';
 
-function CounterButton({ hits }) {
+function Censored({ children }) {
   const [isCensored, setIsCensored] = React.useState(true);
 
   function handleClick() {
@@ -10,9 +10,9 @@ function CounterButton({ hits }) {
 
   return (
     <button className={isCensored ? 'censored' : ''} onClick={handleClick}>
-      {hits}
+      {children}
     </button>
   );
 }
 
-export default CounterButton;
+export default Censored;
