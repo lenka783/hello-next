@@ -1,6 +1,7 @@
 import React from 'react';
 
 import { readFile, writeFile } from '../helpers/file-helpers';
+import CounterButton from '../components/counter-button/counter-button';
 
 const DATABASE_PATH = '/src/database.json';
 
@@ -14,7 +15,9 @@ function Home() {
   return (
     <main>
       <h1>Welcome!</h1>
-      <p>You are visitor number {hits}.</p>
+      <p>
+        You are visitor number <CounterButton hits={hits} />
+      </p>
     </main>
   );
 }
