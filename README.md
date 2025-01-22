@@ -1,6 +1,6 @@
-# Next + Bright
+# Next.js Drum Machine
 
-This repo is for an exercise in my React course, [The Joy of React](https://joyofreact.com/).
+This repo is meant to be used as part of an exercise in [The Joy of React](https://www.joyofreact.com/).
 
 ## Running a development server
 
