@@ -1,6 +1,6 @@
-# Next.js Drum Machine
+# Next Server Side Rendering Gotchas
 
-This repo is meant to be used as part of an exercise in [The Joy of React](https://www.joyofreact.com/).
+This repo is meant to be used as part of a lesson in [The Joy of React](https://www.joyofreact.com/).
 
 ## Running a development server
 
